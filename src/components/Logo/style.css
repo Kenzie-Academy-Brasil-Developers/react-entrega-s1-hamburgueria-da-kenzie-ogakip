@@ -1,0 +1,17 @@
+.LogoText {
+    font-size: 23px;
+    font-family: "Inter Bold";
+    color: #333333;
+}
+.LogoText span {
+    font-size: 16px;
+    font-family: "Inter Bold";
+    color: #EB5757;
+}
+
+@media screen and (min-width: 768px) {
+    .LogoText {
+        margin: 0px 0px 0px 5vw;
+        cursor: pointer;
+    }
+}
