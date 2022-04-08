@@ -1,11 +1,5 @@
-import "./style.css"
+import "./style.css";
 
 export const Header = ({ children }) => {
-    return (
-
-        <div className="header">
-            { children }
-        </div>
-
-    )
-}
+  return <div className="header">{children}</div>;
+};

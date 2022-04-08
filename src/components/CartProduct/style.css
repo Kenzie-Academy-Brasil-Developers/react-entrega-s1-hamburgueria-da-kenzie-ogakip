@@ -1,46 +1,46 @@
 .cartProductBox {
-    width: 93%;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
 }
 
 .cartProductImage {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: #E0E0E0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #e0e0e0;
 }
 .cartProductImage img {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .cartProductDescription {
-    width: 165px;
-    height: 51px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 10px 0px 0px 8px;
+  width: 165px;
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0px 0px 8px;
 }
 .cartProductDescription h3 {
-    font-family: "Inter Bold";
-    font-size: 18px;
-    color: #333333;
+  font-family: "Inter Bold";
+  font-size: 18px;
+  color: #333333;
 }
 .cartProductDescription span {
-    font-family: "Inter Regular";
-    font-size: 12px;
-    color: #828282;
+  font-family: "Inter Regular";
+  font-size: 12px;
+  color: #828282;
 }
 .cartRemove {
-    font-family: "Inter Medium";
-    font-size: 12px;
-    color: #BDBDBD;
-    cursor: pointer;
-    margin-top: 10px;
+  font-family: "Inter Medium";
+  font-size: 12px;
+  color: #bdbdbd;
+  cursor: pointer;
+  margin-top: 10px;
 }

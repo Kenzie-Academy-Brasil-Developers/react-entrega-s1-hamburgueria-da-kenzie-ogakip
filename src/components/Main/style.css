@@ -1,13 +1,13 @@
 .main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
-    .main {
-        flex-direction: row;
-    }
-    button {
-        cursor: pointer;
-    }
+  .main {
+    flex-direction: row;
+  }
+  button {
+    cursor: pointer;
+  }
 }

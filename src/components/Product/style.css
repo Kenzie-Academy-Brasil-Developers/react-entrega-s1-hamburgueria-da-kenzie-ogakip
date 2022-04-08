@@ -1,51 +1,51 @@
 .productBox {
-    min-width: 300px;
-    height: 346px;
-    border: 2px solid #E0E0E0;
-    border-radius: 5px;
-    margin: 15px;
+  min-width: 300px;
+  height: 346px;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  margin: 15px;
 }
 
 .productImageBox {
-    display: flex;
-    justify-content: center;
-    background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
 }
 .productBox img {
-    width: 177px;
-    height: 177px;
+  width: 177px;
+  height: 177px;
 }
 
 .productDescriptionBox {
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 25px 0px 0px 21px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 0px 0px 21px;
 }
 
 .productDescriptionBox h3 {
-    font-family: "Inter Bold";
-    color: #333333;
-    font-size: 18px;
+  font-family: "Inter Bold";
+  color: #333333;
+  font-size: 18px;
 }
 .productDescriptionBox span {
-    font-family: "Inter Regular";
-    color: #828282;
-    font-size: 12px;
+  font-family: "Inter Regular";
+  color: #828282;
+  font-size: 12px;
 }
 .productDescriptionBox p {
-    font-family: "Inter Semi";
-    color: #27AE60;
-    font-size: 14px;
+  font-family: "Inter Semi";
+  color: #27ae60;
+  font-size: 14px;
 }
 .productDescriptionBox button {
-    width: 106px;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
-    background-color: #27AE60;
-    font-family: "Inter Semi";
-    font-size: 14px;
-    color: white;
+  width: 106px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #27ae60;
+  font-family: "Inter Semi";
+  font-size: 14px;
+  color: white;
 }

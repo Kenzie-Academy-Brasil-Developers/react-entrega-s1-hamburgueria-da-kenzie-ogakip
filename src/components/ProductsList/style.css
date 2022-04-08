@@ -1,16 +1,16 @@
 .showProductsBox {
-    display: flex;
-    overflow-x: scroll;
+  display: flex;
+  overflow-x: scroll;
 }
 .showProductsBox::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-    .showProductsBox {
-        width: 140vw;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 3vh 0px 0px 5vw;
-    }
+  .showProductsBox {
+    width: 140vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3vh 0px 0px 5vw;
+  }
 }

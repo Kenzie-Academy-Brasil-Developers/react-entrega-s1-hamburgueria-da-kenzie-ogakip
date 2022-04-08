@@ -1,39 +1,39 @@
 .inputSearchBox {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #E0E0E0;
-    border-radius: 8px;
-    background-color: white;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: white;
 }
 .inputSearchBox input {
-    width: 59%;
-    height: 60px;
-    background: none;
-    border: none;
-    outline: none;
-    padding-left: 15px;
+  width: 59%;
+  height: 60px;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 15px;
 }
 .inputSearchBox input::placeholder {
-    font-family: "Inter Regular";
-    font-size: 16px;
-    color: #E0E0E0;
+  font-family: "Inter Regular";
+  font-size: 16px;
+  color: #e0e0e0;
 }
 .inputSearchBox button {
-    width: 107px;
-    height: 40px;
-    border: none;
-    border-radius: 8px;
-    margin: 0px 10px 0px 0px;
-    font-family: "Inter Medium";
-    color: white;
-    background-color: #27AE60;
+  width: 107px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  margin: 0px 10px 0px 0px;
+  font-family: "Inter Medium";
+  color: white;
+  background-color: #27ae60;
 }
 
 @media screen and (min-width: 768px) {
-    .inputSearchBox {
-        width: 365px;
-        margin: 0px 5vw 0px 0px;
-    }
+  .inputSearchBox {
+    width: 365px;
+    margin: 0px 5vw 0px 0px;
+  }
 }
